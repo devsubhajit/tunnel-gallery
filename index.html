@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+SVG clip-path for tunnel effect
+-->
+<html>
+    <head>
+        <title>Tunnel effect</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS files -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <!-- JS Files -->
+        <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="js/tunnel.js" type="text/javascript"></script>
+        <style>
+            .cliptarget {clip-path: url(#clipping); -webkit-clip-path: url(#clipping); position: absolute; top:0px; left: 0px;}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1>Tunnel Effect Gallery</h1>
+                <p>by <a href="#">Subhajit</a></p>
+            </div>
+        <div class="stack-container tunnel">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  id="tunnel-mask">
+            <defs>
+            <clipPath id="clipping">
+                <circle id="circle1" cx="150" cy="100" r="0" />
+            </clipPath>
+            </defs>
+            </svg>
+            <ul class="stack-gallery">
+                <li>
+                    <div>
+                        <img src="images/Christopher_Portrait-1.jpg" alt="image">
+                    </div>
+                </li>    
+                <li>
+                    <div>
+                        <img src="images/86_621_kalyantesting.jpg" alt="image">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/portrait-photography-by-Egor.jpg" alt="image">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/Laura-Zalenga6.jpg" alt="image">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/portrait_photography_0131440.jpg" alt="image">
+                    </div>
+                </li>
+            </ul>    
+        </div>
+        <div style="width:60px; height: 60px; z-index: 4;" class="v-middle">
+            <svg viewBox="0 0 33.769 33.769" width="60px" height="60px">
+            <use xlink:href="images/n.svg#nbg_icon"></use>
+            </svg>
+            <p class="nbg-link"><a href="#circle1" data-nbg="nbg-tunnel" ></a></p>    
+        </div>
+      </div>      
+    </body>
+</html>

@@ -1,0 +1,39 @@
+/*
+For animation effect using CSS3
+*/
+/* 
+    Created on : Sep 11, 2014, 11:46:17 AM
+    Author     : Subhajit
+    Contact    : art.subhajit@gmail.com // for your advice and suggestions 
+*/
+
+/*=======================================
+-------------- Tunnel --------------
+=========================================*/
+/*.tunnel {width: 60px; height: 60px; border-radius: 100%;}*/
+.tunnel-zoom {
+                animation-name:tunnelzoom; -webkit-animation-name:tunnelzoom; -moz-animation-name:tunnelzoom;
+                animation-duration: 2s; -webkit-animation-duration:2s; -moz-animation-duration:2s;
+                animation-timing-function: ease; -webkit-animation-timing-function: ease; -moz-animation-timing-function: ease;
+                animation-iteration-count: 1; -webkit-animation-iteration-count: 1; -moz-animation-iteration-count: 1;	
+                animation-direction: normal; -webkit-animation-direction: normal; -moz-animation-direction: normal;
+                animation-delay: 0s; -webkit-animation-delay:0s; -moz-animation-delay:0s;
+                animation-play-state: running; -webkit-animation-play-state: running; -moz-animation-play-state: running;
+                animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards;
+}
+@keyframes tunnelzoom
+{
+    from {transform:scale(1); opacity:1;}
+    to{transform:scale(2);opacity:0;}
+}
+
+@-webkit-keyframes tunnelzoom /*Safari and Chrome*/
+{
+    from {-webkit-transform:scale(1); opacity:1;}
+    to{-webkit-transform:scale(2); opacity:0;}
+}
+@-moz-keyframes tunnelzoom /*Safari and Chrome*/
+{
+    from {-moz-transform:scale(1); opacity:1;}
+    to{-moz-transform:scale(2); opacity:0;}
+}

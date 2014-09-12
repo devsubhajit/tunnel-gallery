@@ -1,0 +1,14 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<Viewbox Stretch="Uniform">
+<defs>
+    <g id="nbg_icon">
+     <!-- viewBox="0 0 33.769 33.769" -->   
+            <circle fill="#2BB673" stroke="#BCBEC0" stroke-miterlimit="10" cx="16.884" cy="16.884" r="16.384"/>
+            <polygon fill="#F1F2F2" points="10.461,14.766 8,10.504 10.461,6.242 15.382,6.242 17.842,10.504 15.382,14.766"/>
+            <polygon fill="#F1F2F2" points="18.02,21.741 14.945,16.415 18.02,11.088 24.169,11.088 27.245,16.415 24.169,21.741"/>
+            <polygon fill="#F1F2F2" points="18.259,28.5 16.413,25.303 18.259,22.105 21.95,22.105 23.796,25.303 21.95,28.5 "/>
+    </g>
+</defs>
+</Viewbox>
+</svg>
